@@ -1,0 +1,73 @@
+.list-items {
+  list-style-type: none;
+  border: 1px solid #b6c3ca;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+}
+
+.passwordDetails-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-color: green;
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.website-name {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.username {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.password {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.star-image {
+  height: 15px;
+  width: 100px;
+  margin-top: 0px;
+}
+
+.delete-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.delete-image {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (max-width: 853px) {
+  .list-items {
+    width: 37%;
+  }
+}
